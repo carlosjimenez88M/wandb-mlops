@@ -33,7 +33,7 @@ logger = logging.getLogger()
 
 def go(args):
 	# pathlib.Path(args.file_url) = Convert url in object
-	# name = acces bane
+	# name = access bane
 	# .split("?")[0] = split name
 	# .split("#")[0] = split name
 	basename = pathlib.Path(args.file_url).name.split("?")[0].split('#')[0]
